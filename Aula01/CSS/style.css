@@ -1,0 +1,9 @@
+body {
+    background-color: salmon;
+}
+
+/* Chamando seletor de elemento dentro de classe */
+h4.ex1 {
+    color: lawngreen;
+    text-align: center;
+}
