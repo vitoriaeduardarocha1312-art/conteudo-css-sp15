@@ -1,0 +1,15 @@
+body {
+    font-family: sans-serif;
+    background-image: url("../img/o\ nascimento\ de\ venus.webp");
+    background-repeat: no repeat;
+    background-attachment: fixed;
+
+/* background-size: cover; */
+}
+
+/* definindo bakcground com propriedade abreviada */
+
+p.ex2 {
+    background: violet url("../img/grass-img.png") no-repeat center;
+    color:blanchedalmond;
+}

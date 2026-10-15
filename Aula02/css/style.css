@@ -1,0 +1,55 @@
+body {
+    font-family:monospace;
+}
+
+/*Definindo bakcground-color em elemento */
+
+p.ex1 {
+    background-color: aquamarine;
+}
+
+/* Definindo background-image em elementos */
+
+.ex2 {
+    border: 2px solid blueviolet
+}
+
+p.ex2 {
+    background-image: url("../img/grass-img.png");
+    color: beige;
+}
+
+/* Ajustando repetição de fundo com o backgroud-repeat */
+
+p.ex3, p.ex4, p.ex5 {
+    border: 2px solid black;
+}
+
+p.ex3 {
+    height: 100px;
+    align-content: center;
+    background-image: url("../img/grass-img.png");
+    background-repeat: repeat-x;
+}
+
+p.ex4 {
+    height: 100px;
+    align-content: center;
+    background-image: url("../img/grass-img.png");
+    background-repeat: repeat-y;
+}
+
+p.ex5 {
+     height: 100px;
+    align-content: center;
+    background-image: url("../img/grass-img.png");
+    background-repeat: no-repeat;
+}
+
+p.ex6 {
+    height: 100px;
+    align-content: center;
+    background-image: url("../img/grass-img.png");
+    background-repeat: no-repeat;
+    background-position: right button;
+}
