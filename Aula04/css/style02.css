@@ -1,0 +1,25 @@
+body {
+  background-color: cornsilk;
+  font-family: sans-serif;
+}
+
+/* Definindo contorno com shorthand */
+p.ex1 {
+  border: 2px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 300px;
+  outline: 8px solid crimson;
+  margin: 10px;
+}
+
+/* Definindo offset em contorno de elemento */
+p.ex2 {
+  border: 2px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 300px;
+  outline: 8px solid crimson;
+  outline-offset: 10px;
+  margin: 20px; 
+}

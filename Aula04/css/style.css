@@ -1,0 +1,34 @@
+body {
+  background-color: beige;
+  font-family: monospace;
+}
+
+/* Definindo padding com propriedades específicas */
+
+p.ex1 {
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-right: 50px;
+  padding-bottom: 60px;
+  padding-left: 240px;
+}
+
+/* Definindo padding com shorthand */
+p.ex2 {
+  border: 2px solid black;
+  padding: 60px 240px 10px 50px;
+}
+
+/* Padding e box-sizing */
+p.ex3 {
+  background-color: chartreuse;
+  width: 300px;
+  padding: 20px;
+}
+
+p.ex3-2 {
+  background-color: deeppink;
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+}
