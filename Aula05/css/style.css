@@ -1,0 +1,81 @@
+body {
+    background-color:orchid ;
+    color: black;
+    font-family: serif;
+}
+
+.center div.
+.flex-star div.
+.flex-end div.
+.space-between div.
+.space-around div.
+.space-evenly div. {
+    color: mediumpurple;
+    background-color: ivory;
+    border: 2px solid indigo;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    /* box shadow: 0px 10px 10px 0px black; */
+}
+
+/*utilizando a propriedade justify content */
+
+.center {
+    background-color: mediumpurple;
+    border: 8px solid ivory;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.flex-start {
+    background-color: mediumpurple;
+    border: 8px solid ivory;
+    padding: 10px
+    display: flex;
+    gap: 20px
+    justify-content: flex-start; /* valor padrão */
+    border-radius: 8px;
+}
+
+.flex-end {
+    background-color: mediumpurple;
+    border: 8px solid ivory;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    border-radius: 8px
+}
+
+.space-between {
+    background-color: mediumpurple;
+    border: 8px solid ivory;
+    /* padding 10px; */
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.space-around {
+    background-color: mediumpurple;
+    border: 8px solid ivory;
+    /* padding 10px */
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+.space-evenly {
+
+}

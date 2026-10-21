@@ -1,0 +1,80 @@
+body {
+    background-color: chocolate;
+    font-family: monospace;
+    color:antiquewhite;
+}
+
+.center-1 div.
+.flex-start-1 div.
+.flex-end-1 div.
+.stretch-1 div {
+    background-color: chocolate;
+    border: 2px solid antiquewhite;
+    padding: 20px 30px;
+    color:blanchedalmond;
+    font-weight: bold;
+}
+
+/* utilizando a propriedade align-items */
+.center-1 {
+    background-color: steelblue;
+    border: 8px solid gainsboro;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    height: 200px;
+    align-items: center;
+}
+
+.flex-start-1 {
+    background-color: steelblue;
+    border: 2px solid gainsboro;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    height: 200px;
+    align-items: flex-start;
+}
+
+.flex-end-1 {
+    background-color: steelblue;
+    border: 8px solid gainsboro;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    height: 200px;
+    align-items: flex-end;
+}
+
+.stretch-1 {
+    background-color: steelblue;
+    border: 8px solid gainsboro;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    height: 200px;
+    align-items: stretch;
+}
+
+/* Utilizando a propriedade align-content */
+.center-2 {
+  background-color: steelblue;
+  border: 8px solid gainsboro;
+  padding: 10px;
+  height: 300px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.space-between-2 {
+  background-color: steelblue;
+  border: 8px solid gainsboro;
+  padding: 10px;
+  height: 300px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
