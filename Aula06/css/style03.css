@@ -1,0 +1,104 @@
+body {
+  background-color: darkslategray;
+  color: lightgray;
+  font-family: monospace;
+}
+
+.container {
+  background-color: aliceblue;
+  border: 8px solid darkslateblue;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 4px;
+}
+
+.container div {
+  background-color: lightgray;
+  color: darkslateblue;
+  border: 4px solid navy;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* Formatação de Estilo */
+.ex1,
+.ex2,
+.ex3,
+.ex4,
+.ex5,
+.ex6,
+.ex7,
+.ex8 {
+  background-color: aliceblue;
+  border: 8px solid darkslateblue;
+  padding: 10px;
+  display: grid;
+  gap: 4px; 
+}
+
+.ex1 div,
+.ex2 div,
+.ex3 div,
+.ex4 div,
+.ex5 div,
+.ex6 div,
+.ex7 div,
+.ex8 div {
+  background-color: lightgray;
+  color: darkslateblue;
+  border: 4px solid navy;
+  padding: 10px;
+  text-align: center;
+  align-content: center;
+}
+
+/* Passando valores mistos para o grid-template-columns */
+.ex1 {
+  grid-template-columns: 60px 120px auto;
+}
+
+/* Passando valores com a unidade fr para o grid-template-columns */
+.ex2 {
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+/* Utilizando a função repeat() no grid-template-columns */
+.ex3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Utilizando a função minmax() no grid-template-columns */
+.ex4 {
+  grid-template-columns: minmax(100px, auto) 150px 150px;
+}
+
+/* Utilizando a propriedade grid-template-rows */
+.ex5 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
+}
+
+/* Utilizando a propriedade column-gap */
+.ex6 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 60px);
+  gap: 0px;
+  column-gap: 30px;
+}
+
+/* Utilizando a propriedade row-gap */
+.ex7 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 60px);
+  gap: 0px;
+  row-gap: 60px;
+}
+
+/* Utilizando a propriedade gap */
+.ex8 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 60px);
+  gap: 50px;
+}
