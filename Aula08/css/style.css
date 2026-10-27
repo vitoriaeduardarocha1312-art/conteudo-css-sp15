@@ -1,0 +1,105 @@
+body {
+  background-color: lightyellow;
+  font-family: sans-serif;
+  color: darkred;
+}
+
+
+/* Estilos para contêineres e itens */
+.ex1,
+.ex2,
+.ex3,
+.ex4,
+.ex5,
+.ex6 {
+  background-color: ghostwhite;
+  border: 8px solid tan;
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+}
+
+.ex1 div,
+.ex2 div,
+.ex3 div,
+.ex4 div,
+.ex5 div,
+.ex6 div {
+  background-color: darkred;
+  border: 4px solid tan;
+  color: lightyellow;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Definindo áreas no grid layout com grid-template-areas e grid-area*/
+.ex1 {
+  grid-template-areas: 'area area area area area';
+}
+
+#ex1-item1 {
+  grid-area: area;
+}
+
+/* Definindo pontos em áreas no grid */
+.ex2 {
+  grid-template-areas: 'area area area . .';
+}
+
+#ex2-item1 {
+  grid-area: area;
+}
+
+/* Item ocupando mais de uma linhas nas áreas da grade */
+.ex3 {
+  grid-template-areas: 
+    'area area area . .' 
+    'area area area . .' 
+  ;
+}
+
+#ex3-item1 {
+  grid-area: area;
+}
+
+/* Alinhando itens com justify-self */
+.ex4 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#ex4-item1 {
+  width: 50%;
+  box-sizing: border-box;
+  justify-self: end;
+}
+
+#ex4-item6 {
+  width: 50%;
+  box-sizing: border-box;
+  justify-self: center;
+}
+
+/* Alinhando itens com align-self */
+.ex5 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 120px);
+}
+
+.ex5 div {
+  align-content: center;
+}
+
+#ex5-item1 {
+  height: 40px;
+  align-self: center;
+}
+
+#ex5-item6 {
+  height: 40px;
+  align-self: end;
+}
+
+/* Ordem nos itens do grid */
+.ex6 {
+  grid-template-columns: repeat(3, 1fr);
+}
